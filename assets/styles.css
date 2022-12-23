@@ -4,7 +4,7 @@
     --main: #002648;
     --sub-main: #003864;
     --yellow: #ffb000;
-    --black: #030202;
+    --black: #0b0b0b;
     --white: #fff;
     --gray: #e5e5e5;
 
@@ -125,6 +125,12 @@ p {
     letter-spacing: 1px;
 }
 
+hr {
+    width: 140px;
+    margin: .5rem 0;
+    border: 3px solid var(--color-yellow);
+}
+
 .container {
     max-width: 1150px;
     /* background: var(--gray);  */
@@ -171,7 +177,7 @@ nav ul li a:hover {
 
 nav {
     background-color: var(--black-bg);
-    box-shadow: 3px 2px 18px 3px rgba(147, 147, 150, 0.6);
+    box-shadow: 0px 0px 15px 0px rgba(147, 147, 150, 0.6);
 }
 
 .img-fluid {
@@ -189,4 +195,52 @@ nav {
     background-color: var(--color-red);
     color: var(--color-white);
     font-weight: 600;
+}
+
+/* ABOIUT ME  */
+
+#about-me, #services {
+    padding: 3rem 0;
+}
+
+.aboutImage {
+    height: 600px;
+    border: 15px solid var(--color-white);
+    box-shadow: 0px 0px 10px 1px var(--black);
+}
+
+.aboutImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text {
+    margin: 2rem 0;
+}
+
+/* SERVICES */
+
+.services__sect {
+    padding: 5rem 0;
+    background-color: var(--black);
+    width: 100%;
+}
+
+.services__box {
+    background-color: var(--black-bg);
+    padding: 2rem 3.2rem;
+    color: var(--gray);
+    font-size: .8rem;
+    box-shadow: inset 2px 2px 15px 0 var(--color-primary-light);
+}
+
+.services__box i {
+    margin: 2rem;
+    font-size: 2.5rem;
+    color: var(--color-white);
+}
+
+.services__box h3 {
+    color: var(--color-red);
 }
